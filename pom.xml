@@ -16,21 +16,6 @@
     <!-- Declare where this project is managed in source control. This is used
     during deployment when Maven retrieves the latest version and makes
     sure it builds before naming it with the [next version]-SNAPSHOT -->
-	
-    <distributionManagement>
-        <repository>
-            <id>releases-deploy</id>
-            <name>OPCO Syndicatedcm Releases</name>
-            <url>http://maven.opco.com:8081/nexus/content/repositories/releases/</url>
-        </repository> 
-    </distributionManagement>
-    <scm>                     
-        <connection>scm:git:https://finextbuild:388148ac03a4bae66cffabded23bfe528b5b5ec5@cr.opco.com/FINExT/SyndicateDCM</connection>
-        <developerConnection>scm:git:https://finextbuild:388148ac03a4bae66cffabded23bfe528b5b5ec5@cr.opco.com/FINExT/SyndicateDCM</developerConnection>
-        <url>https://cr.opco.com/FINExT/SyndicateDCM</url>
-        <tag>HEAD</tag>
-    </scm>
-
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
