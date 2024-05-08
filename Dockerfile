@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM openjdk:11
 WORKDIR /app
 COPY target/openshiftdemo.war app.war
 EXPOSE 8080
