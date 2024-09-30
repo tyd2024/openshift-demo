@@ -11,11 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class SystemInfoController {
-
+    @Value("${testing}")
+    String testing;
 
     @RequestMapping(path = "/systemInfo", method = RequestMethod.GET)
     public String status() {
-        return "Success";
+        return "Success " + testing;
     }
     
 }
