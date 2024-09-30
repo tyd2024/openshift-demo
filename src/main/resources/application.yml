@@ -7,3 +7,4 @@ logging:
         stat: INFO
         SQL: INFO
         cache: INFO  
+testing: ${TEST}
