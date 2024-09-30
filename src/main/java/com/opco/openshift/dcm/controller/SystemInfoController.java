@@ -17,7 +17,7 @@ public class SystemInfoController {
 
     @RequestMapping(path = "/systemInfo", method = RequestMethod.GET)
     public String status() {
-        return "Success " + testing;
+        return "testing branch: Success " + testing;
     }
     
 }

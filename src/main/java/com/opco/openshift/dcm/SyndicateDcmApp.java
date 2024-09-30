@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SyndicateDcmApp {
 
     public static void main(String[] args) {
+
         SpringApplication.run(SyndicateDcmApp.class, args);
     }
 
